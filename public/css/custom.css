@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 13, 2017, 11:21:05 AM
+    Author     : Yinnovators
+*/
+.hide{display: none !important; }
+.navigation-menu li.active > a {
+    color: #5fbeaa !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.row-details-close {
+    background: url(../images/datatable-row-openclose.png);
+    background-position: 0px 15px;
+}
+.collapsed .row-details-close {
+    background: url(../images/datatable-row-openclose.png);
+    background-position: 0px 38px;
+}
+.row-details{margin-top: 3px;
+    display: inline-block;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;}
+.pad0{padding: 0px;}
+.table .table {
+    background-color: transparent;
+}
+/*Alert css*/
+.alert-info {
+    color: #fafafa !important;
+    background-color: #34d3eb !important;
+    border: 1px solid #29b6f6 !important;
+}
+.alert-success {
+    color: #fafafa !important;
+    background-color: #81c868 !important;
+    border: 1px solid #33b86c !important;
+}
+.alert-warning {
+    color: #fafafa !important;
+    background-color: #ffbd4a !important;
+    border: 1px solid #ffd740 !important;
+}
+.alert-error,.alert-danger {
+    color: #fafafa !important;
+    background-color: #f05050 !important;
+    border: 1px solid #ef5350 !important;
+}
+.alert-custom {
+    color: #fafafa !important;
+    background-color: #5fbeaa !important;
+    border: 1px solid #5fbeaa !important;
+}
